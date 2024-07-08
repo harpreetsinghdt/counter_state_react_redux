@@ -16,8 +16,8 @@ function App() {
           rel="noopener noreferrer"
         >
           Learn React
-          <Counter />
         </a>
+        <Counter />
       </header>
     </div>
   );

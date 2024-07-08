@@ -14,10 +14,10 @@ const Counter = () => {
   };
 
   return (
-    <div>
+    <div className="container">
       <p>Count: {count}</p>
-      <button onClick={(e) => handleClick(e, "inc")}>Increment</button>
       <button onClick={(e) => handleClick(e, "dec")}>Decrement</button>
+      <button onClick={(e) => handleClick(e, "inc")}>Increment</button>
     </div>
   );
 };
