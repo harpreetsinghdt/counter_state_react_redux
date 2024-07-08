@@ -9,7 +9,6 @@ const Counter = () => {
 
   const handleClick = (e, type) => {
     e.preventDefault();
-    console.log(type);
     if (type === "inc") dispatch(increment());
     if (type === "dec") dispatch(decrement());
   };
